@@ -1,11 +1,11 @@
-import { Login } from './components/screens/Login/Login'
+import { AppRouter } from './routes/AppRouter'
 
 
 function App() {
 
   return (
     <>
-      <Login />
+      <AppRouter />
     </>
   )
 }
