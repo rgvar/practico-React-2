@@ -1,0 +1,29 @@
+.containerLogin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerForm {
+    background-color: rgb(37, 53, 53);
+    width: 40%;
+    height: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 1rem;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
