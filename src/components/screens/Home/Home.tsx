@@ -1,7 +1,12 @@
+import { heroesData } from "../../../data/heroes"
+import { ListHeroes } from "../../ui/ListHeroes/ListHeroes"
 
 
 export const Home = () => {
-  return (
-    <div>Home</div>
-  )
+
+
+
+    return (
+        <ListHeroes heroes={heroesData} title="Todos los héroes" />
+    )
 }
