@@ -1,0 +1,39 @@
+.containerHeroPage {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2vh;
+    height: 100%;
+    
+
+}
+
+.containerImgHeroPage {
+
+    padding: 0.4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerImgHeroPage img {
+
+
+    border-radius: 1rem;
+
+}
+
+.containerHeroList {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.containerHeroList Button {
+    width: 80%;
+    margin-bottom: 5rem;
+}

@@ -4,6 +4,7 @@ import { Search } from '../components/screens/Search/Search'
 import { Header } from '../components/ui/Header/Header'
 import { DcHeroes } from '../components/screens/DcHeroes/DcHeroes'
 import { MarvelHeroes } from '../components/screens/MarvelHeroes/MarvelHeroes'
+import { HeroPage } from '../components/screens/HeroPage/HeroPage'
 
 export const ProtectedRoutes = () => {
   return (
@@ -15,6 +16,7 @@ export const ProtectedRoutes = () => {
             <Route path="/search" element={<Search />} />
             <Route path="/dc-heroes" element={<DcHeroes />} />
             <Route path="/marvel-heroes" element={<MarvelHeroes />} />
+            <Route path="/hero/:id" element={<HeroPage />} />
 
         </Routes>
     </>
