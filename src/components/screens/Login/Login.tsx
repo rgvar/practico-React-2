@@ -33,6 +33,8 @@ export const Login = () => {
         if (userFound) {
             dispatch(setLogin(user));
             navigate("/")
+        } else {
+            alert("Usuario no encontrado o contraseña incorrecta. ")
         }
 
     }
